@@ -8,7 +8,7 @@ html{
 }
 
 header{
-	background-image: url(/Users/q/Pictures/chairmac2.jpg);
+	background-image: url(/Images/chairmac2.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-color: #dbdee3;
@@ -183,7 +183,7 @@ td{
 	background-position: center center; 
 	background-repeat: no-repeat;
 	background-color: black;
-	background-image: url(normalEyePiroll.png);
+	background-image: url(/Images/normalEyePiroll.png);
 }
 
 table img:hover{
