@@ -1,117 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>Piroll</title>
 	<link href="Pirollcss.css" type="text/css" rel="stylesheet">
+	<script src="/jquery-341.js"></script>
+	<script src="/script.js"></script>
 </head>
 <body>
 	<header>
 		<section class="header">
-			<a href=""><img src="/Images/logo.png" alt="logo" class="logo"></a>
+			<a href="" class="logo-link"><div class="logo-container"><img src="/Images/logo.png" alt="logo" class="logo"></div></a>
 			<nav>
+				<div class="wrapper"><a href="#" class="menu-btn"><span></span></a></div>
 				<ul>
-					<a href=""><li>home</li></a>
-					<a href=""><li>about</li></a>
-					<a href=""><li>work</li></a>
-					<a href=""><li>process</li></a>
-					<a href=""><li>services</li></a>
-					<a href=""><li>testimonials</li></a>
-					<a href=""><li>contact</li></a>
+					<li><a href="">home</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">work</a></li>
+					<li><a href="">process</a></li>
+					<li><a href="">services</a></li>
+					<li><a href="">testimonials</a></li>
+					<li><a href="">contact</a></li>
 				</ul>
 			</nav>
 		</section>
 		<section class="banner">
-			<h1>We Design and Develop</h1>
-			<p>We are a new design studio based in USA. We have over <br>
-			20 years of combined experience, and know a thing or two <br>
-			about designing websites and mobile apps.
-			</p>
-			<form>
-				<input type="button" name="contact" value="contact us" class="button">
-			</form>
+			<div class="banner-flex">
+				<h1>We Design and Develop</h1>
+				<p>We are a new design studio based in USA. We have over 
+				20 years of combined experience, and know a thing or two 
+				about designing websites and mobile apps.
+				</p>
+				<form>
+					<input type="button" name="contact" value="contact us" class="button">
+				</form>
+			</div>
 		</section>
 	</header>
-	<div class="about">
+	<section class="about">
 		<h2>About Us</h2>
-		<p>Divide have don't man wherein air fourth. Own itself make have night won't make. <br>A you under Seed appear which good give. Own give air without fowl moveth dry first <br>heaven fruit, dominion she'd won't very all.</p>
+		<p>Divide have don't man wherein air fourth. Own itself make have night won't make. 
+		A you under Seed appear which good give. Own give air without fowl moveth dry first heaven fruit, 
+		dominion she'd won't very all.</p>
 		<img src="/Images/signPiroll.png">
-	</div>	
+	</section>	
 	<section class="skills">
 		<div class="float">
 			<h2>Professional Skills</h2>
 			<h6>UI/UX Design <span>75%</span></h6>
 			<svg>
-				<rect width="500" height="4" fill="#d8d8d8" x="0" y="0"/>
-				<rect width="335" height="4" fill="#10c9c3" x="0" y="0"/>
+				<rect class="float-rect" width="100%" height="4" fill="#d8d8d8" x="0" y="0"/>
+				<rect width="75%" height="4" fill="#10c9c3" x="0" y="0"/>
 			</svg>
 			<h6>web development <span>90%</span></h6>
 			<svg>
-				<rect width="500" height="4" fill="#d8d8d8" x="0" y="0"/>
-				<rect width="430" height="4" fill="#10c9c3" x="0" y="0"/>
+				<rect class="float-rect" width="100%" height="4" fill="#d8d8d8" x="0" y="0"/>
+				<rect width="90%" height="4" fill="#10c9c3" x="0" y="0"/>
 			</svg>
 			<h6>marketing <span>65%</span></h6>
 			<svg>
-				<rect width="500" height="4" fill="#d8d8d8" x="0" y="0"/>
-				<rect width="280" height="4" fill="#10c9c3" x="0" y="0"/>
+				<rect class="float-rect" width="100%" height="4" fill="#d8d8d8" x="0" y="0"/>
+				<rect width="65%" height="4" fill="#10c9c3" x="0" y="0"/>
 			</svg>
 		</div>
 	</section>
-	<div class="numbers">
-		<svg viewBox="0 0 32 32">
-			<path d="M19.732 7.203v-2.666h-7.464v2.666h-9.063v20.259h25.59v-20.259h-9.063zM13.334 5.604h5.331v1.599h-5.331v-1.599zM12.268 8.27h15.461v8.53h-7.997v-2.133h-7.464v2.133h-7.997v-8.53h7.997zM18.666 15.733v3.199h-5.331v-3.199h5.331zM4.271 26.396v-8.53h7.997v2.133h7.464v-2.133h7.997v8.53h-23.457z" fill="white" ></path>
-		</svg>
-		<div>
-			<h6>548</h6>
-			<p>projects completed</p>
+	<section class="numbers">
+		<div class="numbers-50 numbers-div">
+			<div class="numbers__item">
+				<svg viewBox="0 0 32 32">
+					<path d="M19.732 7.203v-2.666h-7.464v2.666h-9.063v20.259h25.59v-20.259h-9.063zM13.334 
+					5.604h5.331v1.599h-5.331v-1.599zM12.268 8.27h15.461v8.53h-7.997v-2.133h-7.464v2.133h-7.997v-8.53h7.997zM18.666 
+					15.733v3.199h-5.331v-3.199h5.331zM4.271 26.396v-8.53h7.997v2.133h7.464v-2.133h7.997v8.53h-23.457z" fill="white" >
+					</path>
+				</svg>
+				<div>
+					<h6>548</h6>
+					<p>projects completed</p>
+				</div>
+			</div>
+			<div class="numbers__item">
+				<svg viewBox="0 0 32 32">
+					<path d="M16 3.205c-7.066 0-12.795 5.729-12.795 12.795s5.729 12.795 12.795 12.795 
+					12.795-5.729 12.795-12.795c0-7.066-5.729-12.795-12.795-12.795zM16 27.729c-6.467 
+					0-11.729-5.261-11.729-11.729s5.261-11.729 11.729-11.729 11.729 5.261 11.729 11.729c0 6.467-5.261 
+					11.729-11.729 11.729z" fill="#fff">
+					</path>
+					<path d="M16 17.066h-6.398v1.066h7.464v-10.619h-1.066z" fill="#fff"></path>
+				</svg>
+				<div>
+					<h6>1465</h6>
+					<p>WORKING HOURS</p>
+				</div>
+			</div>
 		</div>
-		<svg viewBox="0 0 32 32">
-			<path d="M16 3.205c-7.066 0-12.795 5.729-12.795 12.795s5.729 12.795 12.795 12.795 12.795-5.729 12.795-12.795c0-7.066-5.729-12.795-12.795-12.795zM16 27.729c-6.467 0-11.729-5.261-11.729-11.729s5.261-11.729 11.729-11.729 11.729 5.261 11.729 11.729c0 6.467-5.261 11.729-11.729 11.729z" fill="#fff"></path>
-			<path d="M16 17.066h-6.398v1.066h7.464v-10.619h-1.066z" fill="#fff"></path>
-		</svg>
-		<div>
-			<h6>1465</h6>
-			<p>WORKING HOURS</p>
+		<div class="numbers-501 numbers-div">
+			<div class="numbers__item">
+				<svg viewBox="0 0 32 32">
+					<path d="M19.38 12.803l-3.38-10.398-3.381 10.398h-11.013l8.925 6.397-3.427 10.395 8.896-6.448 
+					8.895 6.448-3.426-10.395 8.925-6.397h-11.014zM20.457 19.534l2.394 7.261-6.85-4.965-6.851 4.965 
+					2.64-8.005-0.637-0.456-6.228-4.464h8.471l2.606-8.016 2.605 8.016h8.471l-6.864 4.92 0.245 0.744z" fill="#fff">
+					</path>
+				</svg>
+				<div>
+					<h6>612</h6>
+					<p>POSITIVE FEEDBACKS</p>
+				</div>
+			</div>
+			<div class="numbers__item">
+				<svg viewBox="0 0 32 32">
+					<path d="M21.886 5.115c3.521 0 6.376 2.855 6.376 6.376 0 1.809-0.754 3.439-1.964 4.6l-10.297 
+					10.349-10.484-10.536c-1.1-1.146-1.778-2.699-1.778-4.413 0-3.522 2.855-6.376 6.376-6.376 2.652 0 
+					4.925 1.62 5.886 3.924 0.961-2.304 3.234-3.924 5.886-3.924zM21.886 4.049c-2.345 0-4.499 1.089-5.886 
+					2.884-1.386-1.795-3.54-2.884-5.886-2.884-4.104 0-7.442 3.339-7.442 7.442 0 1.928 0.737 3.758 2.075 
+					5.152l11.253 11.309 11.053-11.108c1.46-1.402 2.275-3.308 2.275-5.352 0-4.104-3.339-7.442-7.442-7.442v0z" fill="#fff">
+					</path>
+				</svg>
+				<div>
+					<h6>735</h6>
+					<p>HAPPY CLIENTS</p>
+				</div>
+			</div>
 		</div>
-		<svg viewBox="0 0 32 32">
-			<path d="M19.38 12.803l-3.38-10.398-3.381 10.398h-11.013l8.925 6.397-3.427 10.395 8.896-6.448 8.895 6.448-3.426-10.395 8.925-6.397h-11.014zM20.457 19.534l2.394 7.261-6.85-4.965-6.851 4.965 2.64-8.005-0.637-0.456-6.228-4.464h8.471l2.606-8.016 2.605 8.016h8.471l-6.864 4.92 0.245 0.744z" fill="#fff"></path>
-		</svg>
-		<div>
-			<h6>612</h6>
-			<p>POSITIVE FEEDBACKS</p>
+	</section>
+	<section class="table">
+		<div class="row">
+			<div class="column">
+				<div class="column__item"><img src="/Images/Слой 1.1.png" alt=""></div>
+				<div class="column__item"><img src="/Images/Слой 2.1.png" alt=""></div>
+			</div>
+			<div class="column">
+				<div class="column__item"><img src="/Images/PirollPhoto2.png" alt=""></div>
+				<div class="column__item"><img src="/Images/PirollPhoto257.png" alt=""></div>
+			</div>
+			<div class="column">
+				<div class="column__item"><img src="/Images/PirollPhoto3.png" alt=""></div>
+				<div class="column__item"><img src="/Images/PirollPhoto4.png" alt=""></div>
+			</div>
+			<div class="column">
+				<a href=""></a>
+				<div class="column__item"><img src="/Images/PirollPhoto5.png" alt=""></div>
+				<div class="column__item"><img src="/Images/PirollPhoto6.png" alt=""></div>
+			</div>
 		</div>
-		<svg viewBox="0 0 32 32">
-			<path d="M21.886 5.115c3.521 0 6.376 2.855 6.376 6.376 0 1.809-0.754 3.439-1.964 4.6l-10.297 10.349-10.484-10.536c-1.1-1.146-1.778-2.699-1.778-4.413 0-3.522 2.855-6.376 6.376-6.376 2.652 0 4.925 1.62 5.886 3.924 0.961-2.304 3.234-3.924 5.886-3.924zM21.886 4.049c-2.345 0-4.499 1.089-5.886 2.884-1.386-1.795-3.54-2.884-5.886-2.884-4.104 0-7.442 3.339-7.442 7.442 0 1.928 0.737 3.758 2.075 5.152l11.253 11.309 11.053-11.108c1.46-1.402 2.275-3.308 2.275-5.352 0-4.104-3.339-7.442-7.442-7.442v0z" fill="#fff"></path>
-		</svg>
-		<div>
-			<h6>735</h6>
-			<p>HAPPY CLIENTS</p>
-		</div>
-	</div>
-	<table>
-		<tr>
-			<td><img src="/Images/PirollPhoto.png"></td>
-			<td><img src="/Images/PirollPhoto2.png"></td>
-			<td><img src="/Images/PirollPhoto3.png"></td>
-			<td><img src="/Images/PirollPhoto5.png"></td>
-		</tr>
-		<tr>
-			<td><img src="/Images/PirollPhoto1.png"></td>
-			<td><img src="/Images/PirollPhoto257.png"></td>
-			<td><img src="/Images/PirollPhoto4.png"></td>
-			<td><img src="/Images/PirollPhoto6.png"></td>
-		</tr>
-		<tr class="Foot">
-			<td colspan="4"><a href="">LOAD MORE WORK</a></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-	</table>
-	<div class="work">
+		<div class="footer"><h3>LOAD MORE WORK</h3></div>
+	</section>
+	<section class="work">
 		<h2>Our Work Process</h2>
-		<p>Was years it seasons was there form he in in them together over that,<br> third sixth gathered female creeping bearing behold years.</p>
-		<video src="video.mp4" height="568" width="1171" controls=""></video>
-	</div>
+		<p>Was years it seasons was there form he in in them together over that,
+			third sixth gathered female creeping bearing behold years.</p>
+		<div class="relation">
+			<div class="relation__ratio">
+				<iframe class="relation__content" width="560" height="315" src="https://www.youtube.com/embed/eNAsImUkjZU" 
+				frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+				allowfullscreen></iframe>		
+			</div>
+		</div>
+	</section>
 	<section class="services">
 		<div>
 				<svg viewBox="0 0 32 32">
@@ -193,8 +237,8 @@
 	<section class="quote">
 		<h1>
 		“ Outstanding job and exceeded all expectations.
-		 It was a pleasure <br> to work with them on a sizable first 
-		 project and am looking <br> forward to start the next one asap.”
+		 It was a pleasure to work with them on a sizable first 
+		 project and am looking forward to start the next one asap.”
 		</h1>
 		<h3>Michael Hopkins</h3>
 
@@ -211,7 +255,7 @@
 	<section class="project">
 		<h1>Need a Project?</h1>
 		<p>Let us know what you're looking for in an agency. 
-		We'll take a look and see<br> if this could be the start 
+		We'll take a look and see if this could be the start 
 		of something beautiful.</p>
 		<form action="">
 			<input type="text" placeholder="Your Name">
@@ -222,32 +266,87 @@
 		</form>
 	</section>
 	<footer>
-		<div class="author">
-			<h2>Piroll Design, Inc.</h2>
-			<p> &#169; 2017 Piroll. All rights reserved.
-			</p>
-			<p>Designed by robirurk.</p>
+		<div class="left-footer">
+			<div class="author">
+				<div class="author-position">
+					<h2>Piroll Design, Inc.</h2>
+					<p> &#169; 2017 Piroll. All rights reserved.
+					</p>
+					<p>Designed by robirurk.</p>
+				</div>
+			</div>
+			<div class="contacts">
+				<div class="contacts-position">
+					<a href="">hello@pirolltheme.com</a>
+					<a href="">+44 987 065 908 </a>
+				</div>
+			</div>
 		</div>
-		<div class="contacts">
-			<a href="">hello@pirolltheme.com</a>
-			<a href="">+44 987 065 908 </a>
+		<div class="right-footer">
+			<div class="nav">
+				<ul class="nav-first">
+					<li><a href="">Projects</a></li>
+					<li><a href="">About</a></li>			
+					<li><a href="">Services</a></li>
+					<li><a href="">Carreer</a></li>
+				</ul>
+				<ul class="nav-second">
+					<li><a href="">News</a></li>
+					<li><a href="">Events</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Legals</a></li>
+				</ul>
+			</div>
+			<div class="social-media">
+				<ul class="social-media__position">
+					<li><a href=""><svg aria-hidden="true" focusable="false" 
+						data-prefix="fab" data-icon="facebook" class="svg-inline--fa fa-facebook fa-w-16" 
+						role="img" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512"><path 
+						 d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 
+						226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 
+						4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 
+						482.38 504 379.78 504 256z"></path></svg></a>
+						<a href="">Facebook</a></li>
+					<li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+						<path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 
+						9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 
+						4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 
+						1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 
+						0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 
+						1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z" /></svg></a>
+						<a href="">Twitter</a></li>
+					<li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+						<path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 
+						2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 
+						2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 
+						2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 
+						9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 
+						1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 
+						0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 
+						1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 
+						12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 
+						4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 
+						0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 
+						2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z" /></svg></a>
+						<a href="">Instagram</a></li>
+					<li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512">
+						<path  d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 
+						8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 
+						131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 
+						78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 
+						76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 
+						47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 
+						25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 
+						256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 
+						6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 
+						142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 
+						82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 
+						29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 
+						66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z"></path></svg></a>
+						<a href="">Dribbble</a></li>
+				</ul>
+			</div>
 		</div>
-		<ul class="nav">
-			<a href=""><li>Projects</li></a>
-			<a href=""><li>About</li></a>			
-			<a href=""><li>Services</li></a>
-			<a href=""><li>Carreer</li></a>
-			<a href=""><li>News</li></a>
-			<a href=""><li>Events</li></a>
-			<a href=""><li>Contact</li></a>
-			<a href=""><li>Legals</li></a>
-		</ul>
-		<ul class="social-media">
-			<a href=""><li>Facebook</li></a>
-			<a href=""><li>Twitter</li></a>
-			<a href=""><li>Instagram</li></a>
-			<a href=""><li>Dribbble</li></a>
-		</ul>
 	</footer>
 </body>
 </html>
