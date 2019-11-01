@@ -15,7 +15,7 @@ header{
 	background-size: contain;
 	background-position: left bottom;
 	background-repeat: no-repeat;
-	background-color: #dbdee3;
+	background-color: #e9e9e9;
 	max-height: 750px;
 	height: 100vh;
 	min-height: 500px;
@@ -93,7 +93,7 @@ div.wrapper{
 }
 
 .header nav{
-	font-style: Montserrat-Medium;
+	font-family: Montserrat-Medium, sans-serif;
 	font-size: 12px;
 	color: #191919;
 	text-transform: uppercase;
@@ -130,7 +130,7 @@ div.wrapper{
 	width: 100%;
 }
 
-.logo-link{
+.logo{
 	margin-top: 4%;
 	margin-left: 10%;
 }
@@ -150,7 +150,7 @@ div.wrapper{
 	background-color: #10c9c3;
 }
 
-.logo{
+.logo-image{
 	margin-top: 10%;
 	position: absolute;
 }
@@ -166,7 +166,7 @@ section.banner{
 }
 
 .banner h1{
-	font-style: Montserrat-Medium;
+	font-family: Montserrat-Medium;
 	font-size: 38px;
 	color: #1d1d1d;
 	letter-spacing: 0.01em;
@@ -188,7 +188,7 @@ section.banner{
 
 .banner p{
 	max-width: 435px;
-	font-style: NunitoSans-Regular;
+	font-family: NunitoSans-Regular;
 	font-size: 18px;
 	color: rgba(120,120,120,255);
 	margin-top: 43px;
@@ -198,7 +198,7 @@ section.banner{
 
 .button{
 	background-color: #10c9c3;
-	font-style: Montserrat-Medium;
+	font-family: Montserrat-Medium;
 	font-size: 12px;
 	text-transform: uppercase;
 	color: rgba(255,255,255,255);
@@ -222,7 +222,7 @@ section.about{
 }
 
 .about h2{
-	font-style: Montserrat-Medium;
+	font-family: Montserrat-Medium;
 	font-size: 30px;
 	color: rgba(25,25,25,255);
 	letter-spacing: 0.01em;
@@ -235,7 +235,7 @@ section.about{
 
 .about p{
 	max-width: 550px;
-	font-style: WorkSans-Regular;
+	font-family: WorkSans-Regular;
 	font-size: 16px;
 	line-height: 24px;
 	color: rgba(120,120,120,255);
@@ -257,7 +257,7 @@ section.skills{
 }
 
 .skills{
-	font-style: Montserrat-Medium;
+	font-family: Montserrat-Medium;
 	font-size: 12px;
 	color: rgba(0,0,0,255);
 	padding-left: 100px;
@@ -480,14 +480,14 @@ section.work{
 	font-size: 16px;
 	line-height: 24px;
 	padding: 40px 0 60px;
-	font-style: MontserratMedium;
+	font-family: MontserratMedium;
 	color: rgba(142,142,142,255);
 	letter-spacing: 0.005em;
 
 }
 
 .work_process p{
-	font-style: NunitoSans-Regular;
+	font-family: NunitoSans-Regular;
 	font-size: 16px;
 	color: rgba(120,120,120,255);
 }
@@ -547,7 +547,7 @@ section.services {
 }
 
 .services h6{
-	font-style: Montserrat-Medium;
+	font-family: Montserrat-Medium;
 	font-size: 12px;
 	color: rgba(25,25,25,255);
 	text-transform: uppercase;
@@ -558,7 +558,7 @@ section.services {
 }
 
 .services p{
-	font-style: NunitoSans-Regular;
+	font-family: NunitoSans-Regular;
 	font-size: 16px;
 	color: rgba(120,120,120,255);
 	line-height: 24px;
@@ -578,7 +578,7 @@ section.quote{
 	width: 70%;
 	margin: 0 auto;
 	padding: 15% 0 11px;
-	font-style: Montserrat-Medium;
+	font-family: Montserrat-Medium;
 	font-size: 1.5rem;
 	line-height: 36px;
 	font-weight: normal;
@@ -587,7 +587,7 @@ section.quote{
 }
 
 .quote h3{
-	font-style: Montserrat-Medium;
+	font-family: Montserrat-Medium;
 	font-size: 0.75rem;
 	line-height: 36px;
 	color: rgba(255,255,255,255);
@@ -626,6 +626,7 @@ section.project{
 	text-align: center;
 	padding-bottom: 100px;
 }
+
 .project h1{
 	font-size: 30px;
 	line-height: 84px;
@@ -636,7 +637,7 @@ section.project{
 	width: 80%;
 	max-width: 490px;
 	margin: 0 auto 2%;
-	font-style: NunitoSans-Regular;
+	font-family: NunitoSans-Regular;
 	font-size: 16px;
 	line-height: 24px;
 	color: rgba(120,120,120,255);
@@ -659,7 +660,7 @@ section.project{
 }
 
 .project input:not(:last-child){
-	font-style: NunitoSans-Regular;
+	font-family: NunitoSans-Regular;
 	line-height: 24px;
 	font-size: 15px;
 	color: #b5b5b5;
@@ -691,7 +692,7 @@ section.project{
 }
 
 textarea{
-	font-style: NunitoSans-Regular;
+	font-family: NunitoSans-Regular;
 	line-height: 24px;
 	font-size: 15px;
 	color: rgba(120,120,120,255);
@@ -715,19 +716,19 @@ footer{
 }
 
 footer h2{
-	font-style: Montserrat-Medium; 
+	font-family: Montserrat-Medium; 
 	font-size: 24px;
 	color: rgba(188,188,188,255);
 }
 
 footer p{
-	font-style: NunitoSans-Regular;
+	font-family: NunitoSans-Regular;
 	font-size: 15px;
 	color: rgba(188,188,188,255);
 }
 
 footer li{
-	font-style: NunitoSans-Regular;
+	font-family: NunitoSans-Regular;
 	font-size: 0.9375rem;
 	color: rgba(188,188,188,255);
 	list-style: none;
