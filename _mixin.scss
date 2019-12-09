@@ -1,0 +1,10 @@
+// === mixin ===
+
+@mixin number($number, $margin-orient){
+    div.numbers-#{$number}{
+        margin-#{$margin-orient}: 5%;
+    }
+}
+
+// === /mixin ===
+

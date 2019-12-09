@@ -1,0 +1,75 @@
+// === fonts ===
+
+$h-font: "Montserrat-Medium", sans-serif;
+$p-font: "NunitoSans-Regular",sans-serif;
+
+// === /fonts ===
+
+
+
+// === font-family ===
+
+    // === Monserrat ===
+
+    $h_header-size: 38px;
+    $h_head-size: 30px;
+    $h_footer_button_numbers-size: 18px;
+    $h_numbers-size: 12px;
+
+    // === /Monserrat ===
+
+
+    // === NunitoSans ===
+
+    $p_header-size: 18px;
+    $p_main-size: 16px;
+    $p_footer-size: 15px;
+
+    // === /NunitoSans ===
+
+
+// === /font-family ===
+
+
+
+// === font-color ===
+
+$h_font-color: #1d1d1d;
+$p_font-color: #8a8a8a;
+$p_footer-color: #bcbcbc;
+
+// === /font-color ===
+
+
+
+// === backs-colors ===
+
+$back_and_active-color: #10c9c3;
+$back_first-color: #dbdee3;
+$back_second_and_font-color: #ffffff;
+$back_third-color: #f8f9f9;
+$back_more_work: #f5f5f5;
+$back_footer: #141414;
+
+// === /backs-colors ===
+
+
+
+// === max-width ===
+
+$max_main-width: 1365px;
+
+// === /max-width ===
+
+
+
+// === media ===
+
+$value-very_small: 350px;
+$value-small: 576px;
+$value-middle: 768px;
+$value-big: 992px;
+$value-very_big: 1200px;
+$value-min_middle: 577px;
+
+// === /media ===
