@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>Piroll</title>
 	<link href="Pirollcss_v1.css" type="text/css" rel="stylesheet">
@@ -9,8 +10,8 @@
 </head>
 <body>
 	<header>
-		<section class="header">
-			<a href="" class="logo"><div class="logo-container"><img src="Images/logo.png" alt="logo" class="logo-image"></div></a>
+		<div class="header">
+			<a href="#" class="logo"><div class="logo-container"><img src="Images/logo.png" alt="logo" class="logo-image"></div></a>
 			<nav>
 				<div class="wrapper"><a href="#" class="menu-btn"><span></span></a></div>
 				<ul>
@@ -23,7 +24,7 @@
 					<li><a href="">contact</a></li>
 				</ul>
 			</nav>
-		</section>
+		</div>
 		<section class="banner">
 			<div class="banner-flex">
 				<h1>We Design and Develop</h1>
@@ -42,7 +43,7 @@
 		<p>Divide have don't man wherein air fourth. Own itself make have night won't make. 
 		A you under Seed appear which good give. Own give air without fowl moveth dry first heaven fruit, 
 		dominion she'd won't very all.</p>
-		<img src="Images/signPiroll.png">
+		<img src="Images/signPiroll.png" alt="Sign">
 	</section>	
 	<section class="skills">
 		<div class="float">
@@ -125,8 +126,8 @@
 	<section class="table">
 		<div class="row">
 			<div class="column">
-				<div class="column__item"><img src="Images/Слой 1.1.png" alt=""></div>
-				<div class="column__item"><img src="Images/Слой 2.1.png" alt=""></div>
+				<div class="column__item"><img src="Images/Layer1.1.png" alt=""></div>
+				<div class="column__item"><img src="Images/Layer2.1.png" alt=""></div>
 			</div>
 			<div class="column">
 				<div class="column__item"><img src="Images/PirollPhoto2.png" alt=""></div>
@@ -151,7 +152,7 @@
 		<div class="relation">
 			<div class="relation__ratio">
 				<iframe class="relation__content" width="560" height="315" src="https://www.youtube.com/embed/eNAsImUkjZU" 
-				frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+				style="border:0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 				allowfullscreen></iframe>		
 			</div>
 		</div>
@@ -236,32 +237,30 @@
 	</section>
 	<section class="quote">
 		<h1>
-		“ Outstanding job and exceeded all expectations.
-		 It was a pleasure to work with them on a sizable first 
-		 project and am looking forward to start the next one asap.”
+		“ Outstanding job and exceeded all expectations.It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.”
 		</h1>
 		<h3>Michael Hopkins</h3>
 
 	</section>
-	<section class="partners">
+	<div class="partners">
 		<ul>
-			<li><img src="Images/1.png"></li>
-			<li><img src="Images/2.png"></li>
-			<li><img src="Images/3.png"></li>
-			<li><img src="Images/4.png"></li>
-			<li><img src="Images/5.png"></li>
+			<li><img src="Images/1.png" alt="Photo"></li>
+			<li><img src="Images/2.png" alt="Photo"></li>
+			<li><img src="Images/3.png" alt="Photo"></li>
+			<li><img src="Images/4.png" alt="Photo"></li>
+			<li><img src="Images/5.png" alt="Photo"></li>
 		</ul>
-	</section>
+	</div>
 	<section class="project">
 		<h1>Need a Project?</h1>
 		<p>Let us know what you're looking for in an agency. 
 		We'll take a look and see if this could be the start 
 		of something beautiful.</p>
-		<form action="">
+		<form>
 			<input type="text" placeholder="Your Name">
 			<input type="text" placeholder="Your Email">
 			<input type="text" placeholder="Your Title">
-			<textarea name="" id="" cols="30" rows="10" placeholder="Your Comment"></textarea>
+			<textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Your Comment"></textarea>
 			<input type="button" value="Send Message">
 		</form>
 	</section>

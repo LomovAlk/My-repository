@@ -864,13 +864,13 @@ section.quote h3 {
   }
 }
 
-section.partners {
+div.partners {
   max-width: 1365px;
   background: #ffffff;
   margin: 0 auto;
   padding-top: 5%;
 }
-section.partners ul {
+div.partners ul {
   padding-bottom: 5%;
   width: 100%;
   display: flex;
@@ -879,23 +879,23 @@ section.partners ul {
   justify-content: center;
   align-items: center;
 }
-section.partners ul li {
+div.partners ul li {
   text-align: center;
   width: 20%;
 }
 @media screen and (max-width: 992px) {
-  section.partners ul li:nth-child(4), section.partners ul li:nth-child(5) {
+  div.partners ul li:nth-child(4), div.partners ul li:nth-child(5) {
     margin-top: 5%;
   }
 }
 @media screen and (max-width: 576px) {
-  section.partners ul li {
+  div.partners ul li {
     margin-top: 5%;
     width: 45% !important;
   }
 }
 @media screen and (max-width: 992px) {
-  section.partners ul li {
+  div.partners ul li {
     width: 33%;
   }
 }
