@@ -1194,7 +1194,7 @@ footer a:hover,li:hover{
 		flex-flow: row-reverse nowrap;
 		justify-content: flex-end;
 		width: 33%;
-		height: 100%
+		height: 100%;
 	}
 
 	.footer{
@@ -1218,7 +1218,7 @@ footer a:hover,li:hover{
 	}
 
 	section.services div{
-		flex-basis: 40%
+		flex-basis: 40%;
 	}
 
 	section.services div:nth-child(3n){
